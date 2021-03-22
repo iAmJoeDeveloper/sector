@@ -7,6 +7,7 @@
 }
 
 html{
+  font-size: 62.5%;
   background: var(--bg);
   background-image: url("../img/MG.jpg");
   background-size: contain;
@@ -25,7 +26,7 @@ body{
 }
 
 main{
-
+  font-size: 1.7rem;
 }
 
 
@@ -78,15 +79,15 @@ p{
 }
 
 i{
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 button{
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 0em;
+  line-height: 2.07rem;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -94,12 +95,12 @@ button{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .header__figure,.nav{
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .nav__item, .nav__item--link{
@@ -110,12 +111,12 @@ button{
 
 .header__figure{
   cursor: pointer;
-  width: 106.39px;
+  width: 10.6rem;
 }
 
 .header__logo{
-  width: 106.39px;
-  height: 40px;
+  width: 10.6rem;
+  height: 4rem;
 }
 
 .nav__inner{
@@ -124,12 +125,12 @@ button{
 
 .nav__inner .nav__item{
   display: inline-block;
-  padding-right:48px;
+  padding-right:4.8rem;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -148,13 +149,13 @@ button{
 .jumbotron{
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-top: 10rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .social__icon{
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   cursor: pointer;
 }
 .social__icon:hover{
@@ -162,8 +163,8 @@ button{
 }
 
 .jumbotron__contenedor2{
-  margin-left: 300px;
-  margin-right:220px;
+  margin-left: 30rem;
+  margin-right:20.2rem;
 }
 
 .jumbotron__contenedor3{
@@ -176,7 +177,7 @@ button{
 }
 
 .jumbotron__list--item{
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .jumbotron__list--link{
@@ -187,10 +188,11 @@ button{
 
 .section_slider-bar{
   list-style: none;
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 
 .section_slider-bar li{
+  
   background-color: grey;
   margin: 0;
   padding: 0;
@@ -199,8 +201,8 @@ button{
 .section_slider-bar li .btn-slider{
   border: none;
   background: rgb(133, 133, 133);
-  height: 50px;
-  width: 2.5px;
+  height: 5rem;
+  width: 0.2rem;
   cursor: pointer;
 }
 .section_slider-bar li button:hover{
@@ -221,8 +223,8 @@ a:hover{
 /* Main content */
 /*            */
 .section1{
-  margin-top: 230px;
-  padding-top: 280px;
+  margin-top: 20.3rem;
+  padding-top: 20.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,8 +233,8 @@ a:hover{
 
 
 .contenedor01{
-  width: 520px;
-  height: 430px;
+  width: 50.2rem;
+  height: 40.3rem;
   position: relative;
 }
 
@@ -241,7 +243,7 @@ a:hover{
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 0.5rem;
   text-decoration: none;
 }
 
@@ -254,26 +256,26 @@ a:hover{
   font-style: normal;
   opacity: 0.1;
   position: absolute;
-  top: -95px;
-  left: -110px;
+  top: -9.5rem;
+  left: -10.1rem;
 }
 
 .main-content .contenedor01 p{
-  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
 }
 
 /* 01 */
 .figureContent__photo{
   /* width: 566px;
   height: 720px; */
-  width: 500px;
+  width: 50rem;
   height: auto;
-  margin-left: 114px;
+  margin-left: 10.14rem;
 }
 .figureContent__photo2{
   /* width: 566px;
   height: 720px; */
-  width: 500px;
+  width: 50rem;
   height: auto;
   /* margin-right: 214px; */
 }
@@ -281,11 +283,11 @@ a:hover{
 hr{
   color: var(--yellow);
   background-color: var(--yellow);
-  height: 2px;
-  width: 72px;
+  height: 0.2rem;
+  width: 7rem ;
   border: none;
-  margin-bottom:20px;
-  margin-top: 20px;
+  margin-bottom:2rem;
+  margin-top: 2rem;
 }
 
 /*            */
@@ -293,7 +295,7 @@ hr{
 /*            */
 
 .section2{
-  margin-top: 200px;
+  margin-top: 20rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -301,10 +303,9 @@ hr{
 }
 
 .contenedor02{
-  width: 520px;
-  height: 430px;
+  width: 50.2rem;
+  height: 40.3rem;
   position: relative;
-  /* margin-left: 200px;*/
 }
 
 /*            */
@@ -312,7 +313,7 @@ hr{
 /*            */
 
 .section3{
-  margin-top: 200px;
+  margin-top: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,8 +321,8 @@ hr{
 }
 
 .contenedor03{
-  width: 520px;
-  height: 430px;
+  width: 50.2rem;
+  height: 40.3rem;
   position: relative;
   /* margin-right: 100px; */
 }
@@ -333,10 +334,10 @@ hr{
 footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
-  margin-left: 150px;
-  margin-right: 230px;
-  margin-bottom: 50px;
+  margin-top: 20rem;
+  margin-left: 15rem;
+  margin-right: 20.3rem;
+  margin-bottom: 5rem;
 }
 
 .footer__copyright{
@@ -368,7 +369,7 @@ footer{
 }
 
 .footer__info-service{
-  margin-right: 150px;
+  margin-right: 15rem;
 }
 
 ul{
