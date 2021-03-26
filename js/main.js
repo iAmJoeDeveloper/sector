@@ -1,8 +1,8 @@
-var buttons = document.querySelectorAll(".btn-slider");
-var links = document.querySelectorAll(".jumbotron__list--link");
+const buttons = document.querySelectorAll(".btn-slider");
+const links = document.querySelectorAll(".jumbotron__list--link");
 
 
-const cuandoClick = function(){
+function cuandoClick(){
   console.log("Click");
   deleteClass();
   this.classList.add("active");
@@ -10,7 +10,8 @@ const cuandoClick = function(){
   findIndex();
 }
 
-const clickLink = function(){
+
+function clickLink(){
   console.log("click link");
   deleteClass();
   this.classList.add("linkActive");
@@ -18,7 +19,8 @@ const clickLink = function(){
   findButton();
 }
 
-const deleteClass = function(){
+
+function deleteClass(){
   console.log('Deleting...');
   buttons.forEach(button => {
     button.classList.remove("active");
@@ -29,8 +31,9 @@ const deleteClass = function(){
   })
 }
 
-const findIndex = function(){
-  for (var i = 0; i < buttons.length; i++){
+
+function findIndex(){
+  for (let i = 0; i < buttons.length; i++){
     if(buttons[i].classList.contains('active')){
       console.log('La posicion es: '+ i);
       links[i].classList.add("linkActive");
@@ -40,8 +43,9 @@ const findIndex = function(){
   }
 }
 
-const findButton = function(){
-  for(var i = 0; i < links.length; i++){
+
+function findButton(){
+  for(let i = 0; i < links.length; i++){
     if(links[i].classList.contains('linkActive')){
       console.log('La posicion es: '+ i);
       buttons[i].classList.add('active');
